@@ -1,0 +1,268 @@
+Using pre-set license
+Built from '2022.1/staging' branch; Version is '2022.1.16f1 (7321c9670bc2) revision 7545289'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit Core' Language: 'en' Physical Memory: 16300 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.1.16f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/ewanr/Documents/GitHub/unit-10/Unit 10
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+49741
+Successfully changed project path to: C:/Users/ewanr/Documents/GitHub/unit-10/Unit 10
+C:/Users/ewanr/Documents/GitHub/unit-10/Unit 10
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 119.42 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.1.16f1 (7321c9670bc2)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.1.16f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/ewanr/Documents/GitHub/unit-10/Unit 10/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1660 SUPER (ID=0x21c4)
+    Vendor:   NVIDIA
+    VRAM:     5992 MB
+    Driver:   30.0.15.1165
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.1.16f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.1.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.1.16f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56892
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004664 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 129.34 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.795 seconds
+Domain Reload Profiling:
+	ReloadAssembly (796ms)
+		BeginReloadAssembly (86ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (593ms)
+			LoadAssemblies (83ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (150ms)
+				TypeCache.Initialize (149ms)
+					TypeCache.ScanAssembly (147ms)
+				ResolveRequiredComponents (1ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (352ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (7ms)
+				RefreshPlugins (129ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (158ms)
+				ProcessInitializeOnLoadMethodAttributes (48ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.009884 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\ewanr\Documents\GitHub\unit-10\Unit 10\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\ewanr\Documents\GitHub\unit-10\Unit 10\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 109.26 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Completed reload, in  1.253 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1254ms)
+		BeginReloadAssembly (114ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (1025ms)
+			LoadAssemblies (82ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (267ms)
+				TypeCache.Initialize (262ms)
+					TypeCache.ScanAssembly (258ms)
+				ResolveRequiredComponents (5ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (64ms)
+			SetupLoadedEditorAssemblies (549ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (8ms)
+				RefreshPlugins (109ms)
+				BeforeProcessingInitializeOnLoad (119ms)
+				ProcessInitializeOnLoadAttributes (263ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.82 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4338 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 55 unused Assets / (58.4 KB). Loaded Objects now: 4779.
+Memory consumption went from 0.66 GB to 0.66 GB.
+Total: 3.829000 ms (FindLiveObjects: 0.346400 ms CreateObjectMapping: 0.355500 ms MarkObjects: 3.038100 ms  DeleteObjects: 0.088000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 74134.154895 seconds.
+  path: Assets/Readme.asset
+  artifactKey: Guid(7f2c382dc2c22446db59030979f6e495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Readme.asset using Guid(7f2c382dc2c22446db59030979f6e495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa215956eba2d56377b220c93c5af084') in 0.034889 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 50.390442 seconds.
+  path: Assets/Sprites
+  artifactKey: Guid(4a30784dd05a88c42971ef2e61f4b9ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites using Guid(4a30784dd05a88c42971ef2e61f4b9ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6e9f2556cbfbff8e6d0e717eb3980e1') in 0.004629 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.814725 seconds.
+  path: Assets/Sprites/Environment
+  artifactKey: Guid(3ff04ab129a17d7479d33162d049ed62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Environment using Guid(3ff04ab129a17d7479d33162d049ed62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f425f5451f94756c867459e380f05623') in 0.005153 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.715876 seconds.
+  path: Assets/Sprites/Environment/Rule Tiles
+  artifactKey: Guid(615eefb8894e1fa4eab130a41ae4db40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Environment/Rule Tiles using Guid(615eefb8894e1fa4eab130a41ae4db40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5650916dbebe1bde1c821532bc6ca46e') in 0.005154 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.217061 seconds.
+  path: Assets/Sprites/Environment/Tiles
+  artifactKey: Guid(8d2c96203ac006d4c97fc1df33c32412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Environment/Tiles using Guid(8d2c96203ac006d4c97fc1df33c32412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a76f781ee94bfb8d8714072bb989053') in 0.004877 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.174284 seconds.
+  path: Assets/Sprites/Environment/Animated
+  artifactKey: Guid(3471727ac3940084a93b97882b1f82cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Environment/Animated using Guid(3471727ac3940084a93b97882b1f82cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54064c68aef8d408fbaca48d046511b4') in 0.004859 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.220907 seconds.
+  path: Assets/Sprites/Environment/Custom Edited - Sonic the Hedgehog Customs - Green Hill Zone.png
+  artifactKey: Guid(1451e1618e8599946995357ffac61f9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Environment/Custom Edited - Sonic the Hedgehog Customs - Green Hill Zone.png using Guid(1451e1618e8599946995357ffac61f9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ca1040797c65f77d66c132a7c421228') in 0.115632 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.928251 seconds.
+  path: Assets/Sprites/Environment/Custom Edited - Sonic the Hedgehog Customs - Green Hill Zone.png
+  artifactKey: Guid(1451e1618e8599946995357ffac61f9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Environment/Custom Edited - Sonic the Hedgehog Customs - Green Hill Zone.png using Guid(1451e1618e8599946995357ffac61f9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42f766f2303976a7ceab13c2f78b40cd') in 0.009830 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.740150 seconds.
+  path: Assets/Sprites/Environment/tileset-greenhill.png
+  artifactKey: Guid(41ff84e55b60c8342a40abc25c60a2e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Environment/tileset-greenhill.png using Guid(41ff84e55b60c8342a40abc25c60a2e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16b3df189664175de8b2c0e8fb4b50e9') in 0.030597 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.462379 seconds.
+  path: Assets/Sprites/Environment/tileset-greenhill.png
+  artifactKey: Guid(41ff84e55b60c8342a40abc25c60a2e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Environment/tileset-greenhill.png using Guid(41ff84e55b60c8342a40abc25c60a2e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '358e017e9f0bda95114b8e3dcaf76241') in 0.011746 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 287.172237 seconds.
+  path: Assets/Sprites/Environment/tileset-greenhill (1).png
+  artifactKey: Guid(d855ee852b1631a4587f2167f04853af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Environment/tileset-greenhill (1).png using Guid(d855ee852b1631a4587f2167f04853af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa0547c95f05f7d240bb0b1f8375794e') in 0.032155 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.648118 seconds.
+  path: Assets/Sprites/Environment/tileset-greenhill.png
+  artifactKey: Guid(d855ee852b1631a4587f2167f04853af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Environment/tileset-greenhill.png using Guid(d855ee852b1631a4587f2167f04853af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4ae4ffd3901cf14f1b1ba2720d040f3') in 0.028172 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.210927 seconds.
+  path: Assets/Sprites/Environment/tileset-greenhill.png
+  artifactKey: Guid(d855ee852b1631a4587f2167f04853af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Environment/tileset-greenhill.png using Guid(d855ee852b1631a4587f2167f04853af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d0c274b2d487d09f492928790e59de4') in 0.009964 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 170.699137 seconds.
+  path: Assets/Sprites/Environment/tileset-greenhill.png
+  artifactKey: Guid(d855ee852b1631a4587f2167f04853af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Environment/tileset-greenhill.png using Guid(d855ee852b1631a4587f2167f04853af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8181e28dba341f7eecdd1773340e6065') in 0.569852 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 26.768759 seconds.
+  path: Assets/Sprites/Environment/Rule Tiles/Grass.asset
+  artifactKey: Guid(80ee39b93cc76bb4a996a02a26a54f56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Environment/Rule Tiles/Grass.asset using Guid(80ee39b93cc76bb4a996a02a26a54f56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf0e6832f8b6fef7d93acff351a64140') in 0.014057 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 175.160047 seconds.
+  path: Assets/Sprites/Environment/Tilemaps/Foreground.prefab
+  artifactKey: Guid(77c6f9913194c724cb5bb16d18b855fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Environment/Tilemaps/Foreground.prefab using Guid(77c6f9913194c724cb5bb16d18b855fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '740451a1d3b766a02732d63655c7d1ae') in 0.039277 seconds 

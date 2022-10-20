@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2022.1/staging' branch; Version is '2022.1.16f1 (7321c9670bc2) revision 7545289'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19044) 64bit Education' Language: 'en' Physical Memory: 16280 MB
+OS: 'Windows 11  (10.0.22000) 64bit Core' Language: 'en' Physical Memory: 16300 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2022.1.16f1\Editor\Unity.exe
 -name
 AssetImportWorker1
 -projectPath
-D:/Github/Unit 10/Unit 10
+C:/Users/ewanr/Documents/GitHub/unit-10/Unit 10
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-63994
-Successfully changed project path to: D:/Github/Unit 10/Unit 10
-D:/Github/Unit 10/Unit 10
+62513
+Successfully changed project path to: C:/Users/ewanr/Documents/GitHub/unit-10/Unit 10
+C:/Users/ewanr/Documents/GitHub/unit-10/Unit 10
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,94 +47,69 @@ D:/Github/Unit 10/Unit 10
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 115.94 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 114.30 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.1.16f1 (7321c9670bc2)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.1.16f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/Github/Unit 10/Unit 10/Assets
+[Subsystems] Discovering subsystems at path C:/Users/ewanr/Documents/GitHub/unit-10/Unit 10/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 3060 (ID=0x2504)
+    Renderer: NVIDIA GeForce GTX 1660 SUPER (ID=0x21c4)
     Vendor:   NVIDIA
-    VRAM:     12142 MB
-    Driver:   30.0.15.1259
+    VRAM:     5992 MB
+    Driver:   30.0.15.1165
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.1.16f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.1.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.1.16f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56956
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56784
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.16f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.16f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.16f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.16f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.16f1/Editor/Data/PlaybackEngines/AppleTVSupport/UnityEditor.AppleTV.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.16f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.16f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
-Registered in 0.009096 seconds.
-Native extension for UWP target not found
-Native extension for LinuxStandalone target not found
+Registered in 0.076201 seconds.
 Native extension for WindowsStandalone target not found
-[usbmuxd] Start listen thread
-[usbmuxd] Listen thread started
-Native extension for AppleTV target not found
-[usbmuxd] Start listen thread
-[usbmuxd] Listen thread started
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 106.45 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 110.95 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.760 seconds
+- Completed reload, in  4.530 seconds
 Domain Reload Profiling:
-	ReloadAssembly (761ms)
-		BeginReloadAssembly (67ms)
+	ReloadAssembly (4530ms)
+		BeginReloadAssembly (3244ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (582ms)
-			LoadAssemblies (66ms)
+		EndReloadAssembly (849ms)
+			LoadAssemblies (3243ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (143ms)
-				TypeCache.Initialize (143ms)
-					TypeCache.ScanAssembly (141ms)
-				ResolveRequiredComponents (0ms)
+			SetupTypeCache (450ms)
+				TypeCache.Initialize (450ms)
+					TypeCache.ScanAssembly (448ms)
+				ResolveRequiredComponents (1ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (31ms)
-			SetupLoadedEditorAssemblies (343ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (317ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (73ms)
+				InitializePlatformSupportModulesInManaged (8ms)
 				SetLoadedEditorAssemblies (7ms)
-				RefreshPlugins (107ms)
+				RefreshPlugins (111ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (109ms)
-				ProcessInitializeOnLoadMethodAttributes (46ms)
+				ProcessInitializeOnLoadAttributes (140ms)
+				ProcessInitializeOnLoadMethodAttributes (49ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004061 seconds.
+Registered in 0.008193 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Github\Unit 10\Unit 10\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\Github\Unit 10\Unit 10\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for UWP target not found
-Native extension for LinuxStandalone target not found
+Symbol file LoadedFromMemory doesn't match image C:\Users\ewanr\Documents\GitHub\unit-10\Unit 10\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\ewanr\Documents\GitHub\unit-10\Unit 10\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Native extension for AppleTV target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 104.64 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 103.99 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
 Package Manager log level set to [2]
@@ -144,115 +119,46 @@ Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Completed reload, in  1.215 seconds
+- Completed reload, in  2.919 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1216ms)
-		BeginReloadAssembly (107ms)
+	ReloadAssembly (2920ms)
+		BeginReloadAssembly (109ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (18ms)
-		EndReloadAssembly (999ms)
-			LoadAssemblies (76ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (2654ms)
+			LoadAssemblies (428ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (275ms)
-				TypeCache.Initialize (271ms)
-					TypeCache.ScanAssembly (267ms)
+			SetupTypeCache (697ms)
+				TypeCache.Initialize (692ms)
+					TypeCache.ScanAssembly (688ms)
 				ResolveRequiredComponents (4ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (57ms)
-			SetupLoadedEditorAssemblies (528ms)
+			RebuildScriptCaches (58ms)
+			SetupLoadedEditorAssemblies (1409ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (28ms)
-				SetLoadedEditorAssemblies (7ms)
-				RefreshPlugins (105ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (6ms)
+				RefreshPlugins (104ms)
 				BeforeProcessingInitializeOnLoad (106ms)
-				ProcessInitializeOnLoadAttributes (241ms)
-				ProcessInitializeOnLoadMethodAttributes (37ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.71 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4338 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 55 unused Assets / (58.2 KB). Loaded Objects now: 4781.
-Memory consumption went from 0.66 GB to 0.66 GB.
-Total: 2.958000 ms (FindLiveObjects: 0.274300 ms CreateObjectMapping: 0.243500 ms MarkObjects: 2.372000 ms  DeleteObjects: 0.067500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005242 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Github\Unit 10\Unit 10\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\Github\Unit 10\Unit 10\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for UWP target not found
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for AppleTV target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.86 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-- Completed reload, in  1.075 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1075ms)
-		BeginReloadAssembly (121ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (38ms)
-		EndReloadAssembly (848ms)
-			LoadAssemblies (72ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (263ms)
-				TypeCache.Initialize (259ms)
-					TypeCache.ScanAssembly (253ms)
-				ResolveRequiredComponents (4ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (46ms)
-			SetupLoadedEditorAssemblies (395ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (41ms)
-				SetLoadedEditorAssemblies (8ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (79ms)
-				ProcessInitializeOnLoadAttributes (223ms)
-				ProcessInitializeOnLoadMethodAttributes (38ms)
+				ProcessInitializeOnLoadAttributes (292ms)
+				ProcessInitializeOnLoadMethodAttributes (891ms)
 				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.71 ms, found 4 plugins.
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 1.12 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4328 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 42 unused Assets / (32.6 KB). Loaded Objects now: 4784.
+Unloading 4338 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 55 unused Assets / (58.3 KB). Loaded Objects now: 4779.
 Memory consumption went from 0.66 GB to 0.66 GB.
-Total: 2.949300 ms (FindLiveObjects: 0.269000 ms CreateObjectMapping: 0.274200 ms MarkObjects: 2.371300 ms  DeleteObjects: 0.034000 ms)
+Total: 3.718900 ms (FindLiveObjects: 0.382000 ms CreateObjectMapping: 0.350500 ms MarkObjects: 2.896800 ms  DeleteObjects: 0.088700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -264,3 +170,673 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 76493.547966 seconds.
+  path: Assets/Sprites/Environment/Tiles/tileset-greenhill_38.asset
+  artifactKey: Guid(82656003a6301b7409ea9ca6df5e84d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Environment/Tiles/tileset-greenhill_38.asset using Guid(82656003a6301b7409ea9ca6df5e84d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0242024e65cb046d68a7af6b6cc0efa') in 0.074306 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/Environment/Tiles/tileset-greenhill_95.asset
+  artifactKey: Guid(0528636c203c8b34d9d9cb9950e29a4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Environment/Tiles/tileset-greenhill_95.asset using Guid(0528636c203c8b34d9d9cb9950e29a4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6f0a626277d4b8899d5e12110f50b2f') in 0.010576 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Sprites/Environment/Tiles/tileset-greenhill_62.asset
+  artifactKey: Guid(92bbdc7c78096ae49a2b2da43b6d7b89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Environment/Tiles/tileset-greenhill_62.asset using Guid(92bbdc7c78096ae49a2b2da43b6d7b89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39cc8b769006785becfc10c912a12517') in 0.009879 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprites/Environment/Tiles/tileset-greenhill_74.asset
+  artifactKey: Guid(158b47e393efb6c4bb8465e427258676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Environment/Tiles/tileset-greenhill_74.asset using Guid(158b47e393efb6c4bb8465e427258676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb3c0e3a763b2986d1c5f60c99e8c4f9') in 0.010549 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/Environment/Tiles/tileset-greenhill_52.asset
+  artifactKey: Guid(ce5cd9cad841f7843a22273dc2c73f89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Environment/Tiles/tileset-greenhill_52.asset using Guid(ce5cd9cad841f7843a22273dc2c73f89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31b50e2c79c57dcb8492ae0e02548d6c') in 0.011117 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/Environment/Tiles/tileset-greenhill_99.asset
+  artifactKey: Guid(bbc431bb062417a4f98a445548e8b143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Environment/Tiles/tileset-greenhill_99.asset using Guid(bbc431bb062417a4f98a445548e8b143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5979ba9a90edfb24e7a7f5b73f714b84') in 0.023842 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/Environment/Tiles/tileset-greenhill_89.asset
+  artifactKey: Guid(b620d9013ac5370418dc3aa54247924e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Environment/Tiles/tileset-greenhill_89.asset using Guid(b620d9013ac5370418dc3aa54247924e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '086ce95c2981d2ba990fea7f56fff511') in 0.010311 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sprites/Environment/Tiles/tileset-greenhill_41.asset
+  artifactKey: Guid(7363db178662f8447b9770b5e9da7dfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Environment/Tiles/tileset-greenhill_41.asset using Guid(7363db178662f8447b9770b5e9da7dfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de6a3654ac64a17a50401b20c2aa85d8') in 0.010112 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprites/Environment/Tiles/tileset-greenhill_72.asset
+  artifactKey: Guid(86bd7e0c39654c1469e6bbb3ad4e6b80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Environment/Tiles/tileset-greenhill_72.asset using Guid(86bd7e0c39654c1469e6bbb3ad4e6b80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3af9c3827eb041ed0c0b0642952bd5d') in 0.010503 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprites/Environment/Tiles/tileset-greenhill_94.asset
+  artifactKey: Guid(ec2a73821854d9044905a136911aefb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Environment/Tiles/tileset-greenhill_94.asset using Guid(ec2a73821854d9044905a136911aefb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b643467877fd21db497feafa3f94e5b7') in 0.010287 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/Environment/Tiles/tileset-greenhill_40.asset
+  artifactKey: Guid(1bf8be16e9d061943a47760257418b07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Environment/Tiles/tileset-greenhill_40.asset using Guid(1bf8be16e9d061943a47760257418b07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9839e03b5a828a0c400f870bf00c98a7') in 0.011011 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprites/Environment/Tiles/tileset-greenhill_57.asset
+  artifactKey: Guid(976e039c09febad4cbbcc35be5948a61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Environment/Tiles/tileset-greenhill_57.asset using Guid(976e039c09febad4cbbcc35be5948a61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23adf30dd86024d68a71adbb7af90b29') in 0.010964 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/Environment/Tiles/tileset-greenhill_67.asset
+  artifactKey: Guid(9f1aaf43430619349b2b9b723683fe1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Environment/Tiles/tileset-greenhill_67.asset using Guid(9f1aaf43430619349b2b9b723683fe1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6a7acd339cd7241e314d35c6c87fb4f') in 0.010519 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/Environment/Tiles/tileset-greenhill_88.asset
+  artifactKey: Guid(2f16f94d6212f84458246b91bafdb42d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Environment/Tiles/tileset-greenhill_88.asset using Guid(2f16f94d6212f84458246b91bafdb42d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dcbeeeac3adf308a4a7e6130dc7d2ef') in 0.010027 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprites/Environment/Tiles/tileset-greenhill_59.asset
+  artifactKey: Guid(48b6df005bf57ef498dceaf4a7573209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Environment/Tiles/tileset-greenhill_59.asset using Guid(48b6df005bf57ef498dceaf4a7573209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f90d81632452ab7cce4b274d982c9750') in 0.010933 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sprites/Environment/Tiles/tileset-greenhill_101.asset
+  artifactKey: Guid(8a3216bb372badb42a638f3b356fc74a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Environment/Tiles/tileset-greenhill_101.asset using Guid(8a3216bb372badb42a638f3b356fc74a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67bcf936020ad20cfd221fb58c8b4af9') in 0.011797 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Sprites/Environment/Tiles/tileset-greenhill_90.asset
+  artifactKey: Guid(a73adc0bd2e481b4495624c2707c7dac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Environment/Tiles/tileset-greenhill_90.asset using Guid(a73adc0bd2e481b4495624c2707c7dac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cc9343cc37b630087787f6ea5ad60f0') in 0.010915 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprites/Environment/Tiles/tileset-greenhill_42.asset
+  artifactKey: Guid(f7b8aa029cc3ee24eb55d774c0bcc8ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Environment/Tiles/tileset-greenhill_42.asset using Guid(f7b8aa029cc3ee24eb55d774c0bcc8ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5054ae24e960ceb0ad2532f42c230a4') in 0.011348 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/Environment/Tiles/tileset-greenhill_49.asset
+  artifactKey: Guid(79f9cda617dd2cb4596ba44bf4b13f9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Environment/Tiles/tileset-greenhill_49.asset using Guid(79f9cda617dd2cb4596ba44bf4b13f9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b87da76fe978a707081754bbe91d69a') in 0.011050 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/Environment/Tiles/tileset-greenhill_45.asset
+  artifactKey: Guid(b1b042abcd1b3c94d8bbf89fb932caae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Environment/Tiles/tileset-greenhill_45.asset using Guid(b1b042abcd1b3c94d8bbf89fb932caae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd54c7a5b7b3ad559aaf103775c438e9c') in 0.011508 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/Environment/Tiles/tileset-greenhill_47.asset
+  artifactKey: Guid(9600ff48dac24554c98c27ad3eb8d08d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Environment/Tiles/tileset-greenhill_47.asset using Guid(9600ff48dac24554c98c27ad3eb8d08d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d707b84ffa9d3fd482251fa3a2b730b') in 0.011158 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprites/Environment/Tiles/tileset-greenhill_85.asset
+  artifactKey: Guid(839fbadc7f573ee41b515cc3fef0485e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Environment/Tiles/tileset-greenhill_85.asset using Guid(839fbadc7f573ee41b515cc3fef0485e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68e7b1d481d79e5c16ca160bb50de077') in 0.011736 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/Environment/Tiles/tileset-greenhill_73.asset
+  artifactKey: Guid(b2036d2dde6804148adc22d817f16c34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Environment/Tiles/tileset-greenhill_73.asset using Guid(b2036d2dde6804148adc22d817f16c34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12587c04593f484a31965e4410e5ac26') in 0.011128 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sprites/Environment/Tiles/tileset-greenhill_48.asset
+  artifactKey: Guid(4755976f36b9b7b419b2b5d1d42ea101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Environment/Tiles/tileset-greenhill_48.asset using Guid(4755976f36b9b7b419b2b5d1d42ea101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cda6db568a62ce23fe07b073e343516f') in 0.012299 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprites/Environment/Tiles/tileset-greenhill_78.asset
+  artifactKey: Guid(227e431444ff4874cbdc302c70e8bf8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Environment/Tiles/tileset-greenhill_78.asset using Guid(227e431444ff4874cbdc302c70e8bf8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c51e18d06e7aa4587f4a89e20c09dfb') in 0.010197 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/Environment/Tiles/tileset-greenhill_104.asset
+  artifactKey: Guid(e6899d6bc8345d641ae700709b10cf67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Environment/Tiles/tileset-greenhill_104.asset using Guid(e6899d6bc8345d641ae700709b10cf67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54c6ff78ef6be44dafd0320e7e1a8359') in 0.010419 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/Environment/Tiles/tileset-greenhill_98.asset
+  artifactKey: Guid(c4dd35c7d1b78664e8f62e8e97811ecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Environment/Tiles/tileset-greenhill_98.asset using Guid(c4dd35c7d1b78664e8f62e8e97811ecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15d957d46c0c5f5fbb3cacaa3a8ef8cb') in 0.010994 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/Environment/Tiles/tileset-greenhill_79.asset
+  artifactKey: Guid(bb6846d922f0d02489603d7735d307a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Environment/Tiles/tileset-greenhill_79.asset using Guid(bb6846d922f0d02489603d7735d307a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '255eb30b648d09d7cf75aaecf964ac66') in 0.010488 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Sprites/Environment/Tiles/tileset-greenhill_83.asset
+  artifactKey: Guid(58f1506e365d56849821bdcbd3c8df1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Environment/Tiles/tileset-greenhill_83.asset using Guid(58f1506e365d56849821bdcbd3c8df1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '108d15de55959c8496a3ea9cb8fc6a84') in 0.011884 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Sprites/Environment/Tiles/tileset-greenhill_60.asset
+  artifactKey: Guid(46ecdea6e4afdcd48adb4bf5d73fc42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Environment/Tiles/tileset-greenhill_60.asset using Guid(46ecdea6e4afdcd48adb4bf5d73fc42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08e68a92245e9f68eb323cad12056d7e') in 0.011340 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/Environment/Tiles/tileset-greenhill_93.asset
+  artifactKey: Guid(b871300bdb43d0b43b8eec58a74f8aa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Environment/Tiles/tileset-greenhill_93.asset using Guid(b871300bdb43d0b43b8eec58a74f8aa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f537e721a823bd79946011d0835bcb6') in 0.010913 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/Environment/Tiles/tileset-greenhill_43.asset
+  artifactKey: Guid(d08cbc9fee6d4784c9a03d66917b4239) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Environment/Tiles/tileset-greenhill_43.asset using Guid(d08cbc9fee6d4784c9a03d66917b4239) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1d172b157e1bae3060372d42d168b13') in 0.010354 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/Environment/Tiles/tileset-greenhill_53.asset
+  artifactKey: Guid(dbf1cf2302cf9ed42af0d71258b2f7f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Environment/Tiles/tileset-greenhill_53.asset using Guid(dbf1cf2302cf9ed42af0d71258b2f7f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1e19894e505578290ad343fa096a3fa') in 0.010756 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sprites/Environment/Tiles/tileset-greenhill_76.asset
+  artifactKey: Guid(0305536472fc81b42bbbdc87516913d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Environment/Tiles/tileset-greenhill_76.asset using Guid(0305536472fc81b42bbbdc87516913d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45029e5de2c07ee9486d25edd4e704fe') in 0.011055 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprites/Environment/Tiles/tileset-greenhill_111.asset
+  artifactKey: Guid(d43e90304518a5d4b96626cf469809cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Environment/Tiles/tileset-greenhill_111.asset using Guid(d43e90304518a5d4b96626cf469809cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd23d13179d4699ee898a667f5f1b722') in 0.010067 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/Environment/Tiles/tileset-greenhill_91.asset
+  artifactKey: Guid(8afd2a7f7556d6f4ebf70ee882312284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Environment/Tiles/tileset-greenhill_91.asset using Guid(8afd2a7f7556d6f4ebf70ee882312284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '671a14a5e2edba132a16528f539f1e13') in 0.010687 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/Environment/Tiles/tileset-greenhill_92.asset
+  artifactKey: Guid(3012c79696ba2cc45affff062335db61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Environment/Tiles/tileset-greenhill_92.asset using Guid(3012c79696ba2cc45affff062335db61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fe6559a317ad4a9750c7466a8d12239') in 0.012238 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.312606 seconds.
+  path: Assets/Sprites/Environment/Tiles/tileset-greenhill_115.asset
+  artifactKey: Guid(8dc0940d19f300e48b337ba57bf41527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Environment/Tiles/tileset-greenhill_115.asset using Guid(8dc0940d19f300e48b337ba57bf41527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90aaf063b2d550c32cd93b67187e3271') in 0.012423 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/Environment/Tiles/tileset-greenhill_116.asset
+  artifactKey: Guid(0ac4a42ff48dddb4c9dd0d6d2e556014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Environment/Tiles/tileset-greenhill_116.asset using Guid(0ac4a42ff48dddb4c9dd0d6d2e556014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '656e74d6f1c2c3d04752babf3f42a5d9') in 0.011534 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprites/Environment/Tiles/tileset-greenhill_126.asset
+  artifactKey: Guid(fc0fa407acc836a4ba9ed2fa938c88fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Environment/Tiles/tileset-greenhill_126.asset using Guid(fc0fa407acc836a4ba9ed2fa938c88fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d47dc2719d585e5b28bb405dc9ed1e6') in 0.011841 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/Environment/Tiles/tileset-greenhill_136.asset
+  artifactKey: Guid(f5da81d3efc920948b20915f3b1f6222) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Environment/Tiles/tileset-greenhill_136.asset using Guid(f5da81d3efc920948b20915f3b1f6222) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b532c3311244528eb71283409ac561a') in 0.011020 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/Environment/Tiles/tileset-greenhill_155.asset
+  artifactKey: Guid(e685779b255246f49ba5bf6841bb6d87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Environment/Tiles/tileset-greenhill_155.asset using Guid(e685779b255246f49ba5bf6841bb6d87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7acef5d8ecefe2076e156e53f4d4eb4') in 0.011290 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprites/Environment/Tiles/tileset-greenhill_167.asset
+  artifactKey: Guid(9d9e4dec6b26ad542b0142131024c661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Environment/Tiles/tileset-greenhill_167.asset using Guid(9d9e4dec6b26ad542b0142131024c661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88bfbe7b2dbe66fd9e2fde85fe685210') in 0.011044 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/Environment/Tiles/tileset-greenhill_169.asset
+  artifactKey: Guid(1612efe0f028bd2439c1c24a48ca4284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Environment/Tiles/tileset-greenhill_169.asset using Guid(1612efe0f028bd2439c1c24a48ca4284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cc6d010c8f69e1a14ab834494c8ecc8') in 0.010951 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprites/Environment/Tiles/tileset-greenhill_165.asset
+  artifactKey: Guid(2a0c82768e7d1dc47862554ef77d3dc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Environment/Tiles/tileset-greenhill_165.asset using Guid(2a0c82768e7d1dc47862554ef77d3dc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '339b4196310f976b2c4afe9953acc653') in 0.011447 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprites/Environment/Tiles/tileset-greenhill_162.asset
+  artifactKey: Guid(1d6900940dca90b4086ba835315fa576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Environment/Tiles/tileset-greenhill_162.asset using Guid(1d6900940dca90b4086ba835315fa576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1d543e4dad7cfffd28048a795de283f') in 0.009829 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sprites/Environment/Tiles/tileset-greenhill_191.asset
+  artifactKey: Guid(eb51272d134d2bd41bc1dea13ba5749c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Environment/Tiles/tileset-greenhill_191.asset using Guid(eb51272d134d2bd41bc1dea13ba5749c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b30efa90485d6738bfcaa6470ae5b82') in 0.010036 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprites/Environment/Tiles/tileset-greenhill_190.asset
+  artifactKey: Guid(167bc7f4cae44b940ac48dbc1a3e48b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Environment/Tiles/tileset-greenhill_190.asset using Guid(167bc7f4cae44b940ac48dbc1a3e48b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33134490e78da1338fdfc4be9a9ee1fb') in 0.009821 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sprites/Environment/Tiles/tileset-greenhill_175.asset
+  artifactKey: Guid(002fe8e01248d234c94663ff89c68432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Environment/Tiles/tileset-greenhill_175.asset using Guid(002fe8e01248d234c94663ff89c68432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32f9db88497884107eab56c147c47890') in 0.010040 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprites/Environment/Tiles/tileset-greenhill_228.asset
+  artifactKey: Guid(23fa3c4e3159441418f329e3b1371ab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Environment/Tiles/tileset-greenhill_228.asset using Guid(23fa3c4e3159441418f329e3b1371ab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da3a042d9e3a9d0dab2ffaca6748c581') in 0.010287 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Sprites/Environment/Tiles/tileset-greenhill_147.asset
+  artifactKey: Guid(b1ae2cb0f3f496b49a58ec0559ad0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Environment/Tiles/tileset-greenhill_147.asset using Guid(b1ae2cb0f3f496b49a58ec0559ad0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7c48286bfe9a2404dce4f89167677d5') in 0.010242 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprites/Environment/Tiles/tileset-greenhill_231.asset
+  artifactKey: Guid(6e8790ccba67bd24992c915e85f936ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Environment/Tiles/tileset-greenhill_231.asset using Guid(6e8790ccba67bd24992c915e85f936ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4aaa9078a4376837e6c72d08e3ee84a') in 0.010537 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/Environment/Tiles/tileset-greenhill_120.asset
+  artifactKey: Guid(172ffb1ed896fc14fbeaf29901cffe40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Environment/Tiles/tileset-greenhill_120.asset using Guid(172ffb1ed896fc14fbeaf29901cffe40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '075a1c9ca170c2d8ed78c1115a4dfe81') in 0.011439 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/Environment/Tiles/tileset-greenhill_161.asset
+  artifactKey: Guid(9d04d79740ca69642ba2480bf0379c3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Environment/Tiles/tileset-greenhill_161.asset using Guid(9d04d79740ca69642ba2480bf0379c3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4096a9f05f551ee90697d7fd2dbd2ba2') in 0.010479 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprites/Environment/Tiles/tileset-greenhill_139.asset
+  artifactKey: Guid(1e9cf882b93822b499e2d47ca4151110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Environment/Tiles/tileset-greenhill_139.asset using Guid(1e9cf882b93822b499e2d47ca4151110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f60728fa676fa8d20273d21c6986478') in 0.011579 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/Environment/Tiles/tileset-greenhill_149.asset
+  artifactKey: Guid(cc22187ac3f4b9543bdac3c4a678906b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Environment/Tiles/tileset-greenhill_149.asset using Guid(cc22187ac3f4b9543bdac3c4a678906b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '882b369607dcc9a14ec2cf06c73a7931') in 0.011814 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/Environment/Tiles/tileset-greenhill_124.asset
+  artifactKey: Guid(ca1641a69bfe06e47a4873e070174570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Environment/Tiles/tileset-greenhill_124.asset using Guid(ca1641a69bfe06e47a4873e070174570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9936e77a311b77033b6fa47244d1a914') in 0.011000 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/Environment/Tiles/tileset-greenhill_196.asset
+  artifactKey: Guid(f152aba70f4e80049a8e1900f3e6f13e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Environment/Tiles/tileset-greenhill_196.asset using Guid(f152aba70f4e80049a8e1900f3e6f13e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7de3dce4eff5b9de6413b80eb3be8ac8') in 0.010699 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sprites/Environment/Tiles/tileset-greenhill_241.asset
+  artifactKey: Guid(7e8fff16fa31e674bbb9a8bfe99fb3c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Environment/Tiles/tileset-greenhill_241.asset using Guid(7e8fff16fa31e674bbb9a8bfe99fb3c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78ca6543c96d227244dcfe3738ea5a43') in 0.010951 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/Environment/Tiles/tileset-greenhill_296.asset
+  artifactKey: Guid(6ddc0aa94de3962409affdb1ad444aeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Environment/Tiles/tileset-greenhill_296.asset using Guid(6ddc0aa94de3962409affdb1ad444aeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebb791a449b498cd7dd5a05ea8cbbd76') in 0.013005 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/Environment/Tiles/tileset-greenhill_289.asset
+  artifactKey: Guid(d95e2f899e4272449bca9bd93092f5f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Environment/Tiles/tileset-greenhill_289.asset using Guid(d95e2f899e4272449bca9bd93092f5f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf44f4c75fe7dabbab605d2c504e4a54') in 0.011819 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprites/Environment/Tiles/tileset-greenhill_249.asset
+  artifactKey: Guid(b8078babeb0ceab43833150c94a02720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Environment/Tiles/tileset-greenhill_249.asset using Guid(b8078babeb0ceab43833150c94a02720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed06a7961576b46dec3ec4e3158f23ef') in 0.011493 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/Environment/Tiles/tileset-greenhill_246.asset
+  artifactKey: Guid(8aeea43e5c8114e4097ab6d5ee6b1d0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Environment/Tiles/tileset-greenhill_246.asset using Guid(8aeea43e5c8114e4097ab6d5ee6b1d0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a76973b16014aa42134b26f66536c4e') in 0.011895 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/Environment/Tiles/tileset-greenhill_255.asset
+  artifactKey: Guid(e81d3c4a573723745ab2901808b8bb7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Environment/Tiles/tileset-greenhill_255.asset using Guid(e81d3c4a573723745ab2901808b8bb7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d74d44c003e105f2438deccebb93cc7') in 0.010581 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/Environment/Tiles/tileset-greenhill_301.asset
+  artifactKey: Guid(990d0b09e3ea15d4c99879c94b66266f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Environment/Tiles/tileset-greenhill_301.asset using Guid(990d0b09e3ea15d4c99879c94b66266f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58d994141adf35b28649f651cb8c63c2') in 0.012227 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprites/Environment/Tiles/tileset-greenhill_251.asset
+  artifactKey: Guid(9d54013532236b14dab9d46bbd967b5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Environment/Tiles/tileset-greenhill_251.asset using Guid(9d54013532236b14dab9d46bbd967b5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4575cd46d881f63da172c7af44cbaa5e') in 0.010980 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/Environment/Tiles/tileset-greenhill_240.asset
+  artifactKey: Guid(1411ff5c5d485ea418a83ea74ec23612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Environment/Tiles/tileset-greenhill_240.asset using Guid(1411ff5c5d485ea418a83ea74ec23612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a329fca4a282764bf1b04d8873c7d308') in 0.010801 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/Environment/Tiles/tileset-greenhill_230.asset
+  artifactKey: Guid(79087be683aa4cc4694f1184f4f92bc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Environment/Tiles/tileset-greenhill_230.asset using Guid(79087be683aa4cc4694f1184f4f92bc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a24a56e79cb3eccf4cc5839a0f481c8') in 0.010334 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprites/Environment/Tiles/tileset-greenhill_257.asset
+  artifactKey: Guid(3e82c1783220eb544a119adec77da2e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Environment/Tiles/tileset-greenhill_257.asset using Guid(3e82c1783220eb544a119adec77da2e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af82d38d8789e77d34e9b8137b2c3262') in 0.010247 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/Environment/Tiles/tileset-greenhill_130.asset
+  artifactKey: Guid(16b2a4c75353eed4ba54b1c1b3bbb803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Environment/Tiles/tileset-greenhill_130.asset using Guid(16b2a4c75353eed4ba54b1c1b3bbb803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1a84df7e9ae94f30e889537cf307272') in 0.011096 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/Environment/Tiles/tileset-greenhill_129.asset
+  artifactKey: Guid(cd105853e178251419772d0afe469e7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Environment/Tiles/tileset-greenhill_129.asset using Guid(cd105853e178251419772d0afe469e7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '785c8065071edb6310fd27ab71131fdc') in 0.010096 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprites/Environment/Tiles/tileset-greenhill_144.asset
+  artifactKey: Guid(0cb67bc2e3286d444bd3efd30672ed47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Environment/Tiles/tileset-greenhill_144.asset using Guid(0cb67bc2e3286d444bd3efd30672ed47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fae56ef0714d6b6cb63d0182755103ef') in 0.012769 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Sprites/Environment/Tiles/tileset-greenhill_141.asset
+  artifactKey: Guid(4bf974a088bc1ac4ca76cbca95da7b0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Environment/Tiles/tileset-greenhill_141.asset using Guid(4bf974a088bc1ac4ca76cbca95da7b0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62153c308af266397a8572492e8ab087') in 0.011032 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/Environment/Tiles/tileset-greenhill_237.asset
+  artifactKey: Guid(538a4c04ea8e2e04cae1aa85c8861990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Environment/Tiles/tileset-greenhill_237.asset using Guid(538a4c04ea8e2e04cae1aa85c8861990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8d4667f47ff9ea3e4a6999f177ab72c') in 0.010775 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprites/Environment/Tiles/tileset-greenhill_294.asset
+  artifactKey: Guid(b54269634bde5d540b79810255e32352) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Environment/Tiles/tileset-greenhill_294.asset using Guid(b54269634bde5d540b79810255e32352) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87a04fc4d3d07598720e9562dabf574e') in 0.011467 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/Environment/Tiles/tileset-greenhill_219.asset
+  artifactKey: Guid(8a785269fade7174ea8042b8910d2ba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Environment/Tiles/tileset-greenhill_219.asset using Guid(8a785269fade7174ea8042b8910d2ba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a52208e43313a2c048b476f35a64047') in 0.010205 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/Environment/Tiles/tileset-greenhill_263.asset
+  artifactKey: Guid(d23e65768331d5e40b79cb4c68c54c36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Environment/Tiles/tileset-greenhill_263.asset using Guid(d23e65768331d5e40b79cb4c68c54c36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d54feefc736ff98917b961643d9e19a') in 0.011923 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sprites/Environment/Tiles/tileset-greenhill_132.asset
+  artifactKey: Guid(24ffe5c7dbf378b4abc45670cc44669c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Environment/Tiles/tileset-greenhill_132.asset using Guid(24ffe5c7dbf378b4abc45670cc44669c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36f78fa9b869ed7a14c3204db3045e74') in 0.010001 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprites/Environment/Tiles/tileset-greenhill_252.asset
+  artifactKey: Guid(34938516467485444986257378e5d358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Environment/Tiles/tileset-greenhill_252.asset using Guid(34938516467485444986257378e5d358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b4943c412a13327e88c1ef5fc4f359c') in 0.011459 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/Environment/Tiles/tileset-greenhill_293.asset
+  artifactKey: Guid(e6c9b154bd296cc4681da046aadf7cfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Environment/Tiles/tileset-greenhill_293.asset using Guid(e6c9b154bd296cc4681da046aadf7cfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b238be81b7e568c6c92ac6322b5cc64') in 0.010337 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/Environment/Tiles/tileset-greenhill_220.asset
+  artifactKey: Guid(42ae518133be5f64d8673d38b1bfb486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Environment/Tiles/tileset-greenhill_220.asset using Guid(42ae518133be5f64d8673d38b1bfb486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd79696836294507ffb1dcddcefd53f4c') in 0.013230 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprites/Environment/Tiles/tileset-greenhill_192.asset
+  artifactKey: Guid(aa0de20b3dd92ef40982d7524b260d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Environment/Tiles/tileset-greenhill_192.asset using Guid(aa0de20b3dd92ef40982d7524b260d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0a5631c3aac9fd0850d9d6d5930c781') in 0.010555 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/Environment/Tiles/tileset-greenhill_193.asset
+  artifactKey: Guid(940127c7af1cfae4ea7168dbf1350684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Environment/Tiles/tileset-greenhill_193.asset using Guid(940127c7af1cfae4ea7168dbf1350684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef5f9200197fd2473b5858a062a8a501') in 0.011113 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/Environment/Tiles/tileset-greenhill_188.asset
+  artifactKey: Guid(575cd4954be6aab44af9a3ee3475df28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Environment/Tiles/tileset-greenhill_188.asset using Guid(575cd4954be6aab44af9a3ee3475df28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acb90019f0f47d22c1723801d5b13fa2') in 0.011545 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/Environment/Tiles/tileset-greenhill_292.asset
+  artifactKey: Guid(fa44c7c35f262734b8152a6a4a1cce88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Environment/Tiles/tileset-greenhill_292.asset using Guid(fa44c7c35f262734b8152a6a4a1cce88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c560d7cfea5e7ecd5086053a2e42ae4c') in 0.011017 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/Environment/Tiles/tileset-greenhill_183.asset
+  artifactKey: Guid(f10dffb0f02e0624699070dde39c7684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Environment/Tiles/tileset-greenhill_183.asset using Guid(f10dffb0f02e0624699070dde39c7684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '843241032d729e4563fd8ee30fc0b010') in 0.011225 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/Environment/Tiles/tileset-greenhill_150.asset
+  artifactKey: Guid(77395c6d78e910b469b8622d69e1cc3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Environment/Tiles/tileset-greenhill_150.asset using Guid(77395c6d78e910b469b8622d69e1cc3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1d6aa278840d11ac2cf86284eccc75a') in 0.010887 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/Environment/Tiles/tileset-greenhill_290.asset
+  artifactKey: Guid(0908b7393e07f6244a5f678936c19ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Environment/Tiles/tileset-greenhill_290.asset using Guid(0908b7393e07f6244a5f678936c19ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bd91e8624bb0b6007bfaefcee3efe58') in 0.011605 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprites/Environment/Tiles/tileset-greenhill_172.asset
+  artifactKey: Guid(303e82dc7086b8e449a8c5990ce2b5d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Environment/Tiles/tileset-greenhill_172.asset using Guid(303e82dc7086b8e449a8c5990ce2b5d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4059a0700a3e17690da30f0038d8292') in 0.013445 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprites/Environment/Tiles/tileset-greenhill_121.asset
+  artifactKey: Guid(934da73b4fcd56843b08d9eec5b34ac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Environment/Tiles/tileset-greenhill_121.asset using Guid(934da73b4fcd56843b08d9eec5b34ac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f1341fed23848d9d1865c775ce04c98') in 0.010824 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprites/Environment/Tiles/tileset-greenhill_135.asset
+  artifactKey: Guid(48e7968334904214c85e3f2ea1c722ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Environment/Tiles/tileset-greenhill_135.asset using Guid(48e7968334904214c85e3f2ea1c722ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d85dd0fbb276bf946754aa90e900efa') in 0.010787 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Sprites/Environment/Tiles/tileset-greenhill_153.asset
+  artifactKey: Guid(865df33da5c793945b9a5068e95aa64b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Environment/Tiles/tileset-greenhill_153.asset using Guid(865df33da5c793945b9a5068e95aa64b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89798901e7a43be7985cd76a6e842d73') in 0.011985 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprites/Environment/Tiles/tileset-greenhill_236.asset
+  artifactKey: Guid(65cece769ae7f5649a016c550dcdd926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Environment/Tiles/tileset-greenhill_236.asset using Guid(65cece769ae7f5649a016c550dcdd926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a8cbb257fdb260b1ab28946fb8df6cf') in 0.011036 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprites/Environment/Tiles/tileset-greenhill_197.asset
+  artifactKey: Guid(2fc3a21e40bdd7546a3853d9ce6a8998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Environment/Tiles/tileset-greenhill_197.asset using Guid(2fc3a21e40bdd7546a3853d9ce6a8998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86dee7c81a8bc8246e18b477c4c8a277') in 0.011898 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/Environment/Tiles/tileset-greenhill_242.asset
+  artifactKey: Guid(7c103e3d5268d2d49a7136590baaef57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Environment/Tiles/tileset-greenhill_242.asset using Guid(7c103e3d5268d2d49a7136590baaef57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47ee0766c6f1b91e76ef9bfafee3468d') in 0.012149 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/Environment/Tiles/tileset-greenhill_168.asset
+  artifactKey: Guid(2a182f59e738d3e41892e70431616473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Environment/Tiles/tileset-greenhill_168.asset using Guid(2a182f59e738d3e41892e70431616473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c60ada8ba4aa7b170dd106d7e49e531f') in 0.010121 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprites/Environment/Tiles/tileset-greenhill_225.asset
+  artifactKey: Guid(919e5d783fbe8bb4f820abf758e9c17e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Environment/Tiles/tileset-greenhill_225.asset using Guid(919e5d783fbe8bb4f820abf758e9c17e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '301daa557241ebf05a1920ed02257e6e') in 0.010743 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sprites/Environment/Tiles/tileset-greenhill_291.asset
+  artifactKey: Guid(71db8560df8fd444b8024a0c77d04ab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Environment/Tiles/tileset-greenhill_291.asset using Guid(71db8560df8fd444b8024a0c77d04ab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '829a51604508de9cf86a633f97e3bcb2') in 0.011230 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/Environment/Tiles/tileset-greenhill_214.asset
+  artifactKey: Guid(fa2874eae2203ac4b8d3ea5cb79f3804) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Environment/Tiles/tileset-greenhill_214.asset using Guid(fa2874eae2203ac4b8d3ea5cb79f3804) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfbc9a2310fff2c2e4e357ed0e8824d2') in 0.011939 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/Environment/Tiles/tileset-greenhill_177.asset
+  artifactKey: Guid(55e1436e0f6470a4f97b77d53e10ea7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Environment/Tiles/tileset-greenhill_177.asset using Guid(55e1436e0f6470a4f97b77d53e10ea7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37edb382ac3632b6bf5e958f9bda9e1d') in 0.012903 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/Environment/Tiles/tileset-greenhill_217.asset
+  artifactKey: Guid(7f38e37ecb07529438ab9b219bffbf0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Environment/Tiles/tileset-greenhill_217.asset using Guid(7f38e37ecb07529438ab9b219bffbf0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4271530f3a2e91e0dd107d0276d6ee8') in 0.010800 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprites/Environment/Tiles/tileset-greenhill_159.asset
+  artifactKey: Guid(19369ca96a5aa6e4b84527f52fb9e8f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Environment/Tiles/tileset-greenhill_159.asset using Guid(19369ca96a5aa6e4b84527f52fb9e8f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5ac8564eb733e284a6798677177cbef') in 0.011893 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sprites/Environment/Tiles/tileset-greenhill_226.asset
+  artifactKey: Guid(f5879b193fff65a4090b3d8fefd163c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Environment/Tiles/tileset-greenhill_226.asset using Guid(f5879b193fff65a4090b3d8fefd163c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea3ab84d0663e6aca8f6220b90fccd77') in 0.012707 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/Environment/Tiles/tileset-greenhill_151.asset
+  artifactKey: Guid(efef2df4d2e09bc4e8ea89addc909694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Environment/Tiles/tileset-greenhill_151.asset using Guid(efef2df4d2e09bc4e8ea89addc909694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8aef62264234a8dcc0bcde316a0cee5') in 0.011532 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprites/Environment/Tiles/tileset-greenhill_176.asset
+  artifactKey: Guid(3edb5eff5b60fb74da5d69548ff7acc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Environment/Tiles/tileset-greenhill_176.asset using Guid(3edb5eff5b60fb74da5d69548ff7acc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b717f9c0450a5117ccb3b6c927e3b998') in 0.010796 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/Environment/Tiles/tileset-greenhill_140.asset
+  artifactKey: Guid(9fc2b00d72922f644afe99ca073258bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Environment/Tiles/tileset-greenhill_140.asset using Guid(9fc2b00d72922f644afe99ca073258bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e913c97ddbb2af7834b3a2920634dd6') in 0.011037 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprites/Environment/Tiles/tileset-greenhill_127.asset
+  artifactKey: Guid(7a408a8f56dbf2b45bf9dc77b212ace8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Environment/Tiles/tileset-greenhill_127.asset using Guid(7a408a8f56dbf2b45bf9dc77b212ace8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36157cf0b61957505e549b17023eb8c2') in 0.010420 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprites/Environment/Tiles/tileset-greenhill_158.asset
+  artifactKey: Guid(5fd1f95ae39abe84f95d221456283303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Environment/Tiles/tileset-greenhill_158.asset using Guid(5fd1f95ae39abe84f95d221456283303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0e74e373b7ce79ef03720eadb9bfa3a') in 0.010385 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprites/Environment/Tiles/tileset-greenhill_222.asset
+  artifactKey: Guid(3c3a05a244bfada4387415782aa32e00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Environment/Tiles/tileset-greenhill_222.asset using Guid(3c3a05a244bfada4387415782aa32e00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66724708d53a91f48c2709b8e871dc40') in 0.011184 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprites/Environment/Tiles/tileset-greenhill_117.asset
+  artifactKey: Guid(c54ee0a8f72f9c4448505aa07fb89ce0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Environment/Tiles/tileset-greenhill_117.asset using Guid(c54ee0a8f72f9c4448505aa07fb89ce0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3be069af2f20d9a0dda0c86290c4499e') in 0.011293 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/Environment/Tiles/tileset-greenhill_295.asset
+  artifactKey: Guid(734b16c4c18ab644fbeeb4604564ffea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Environment/Tiles/tileset-greenhill_295.asset using Guid(734b16c4c18ab644fbeeb4604564ffea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b215096259849b6874d2d3a7f3fd7dd') in 0.013204 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
