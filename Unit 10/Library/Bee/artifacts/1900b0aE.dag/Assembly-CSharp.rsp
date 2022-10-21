@@ -403,6 +403,8 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
+"Assets/Scripts/Environment/BezierCollider2D.cs"
+"Assets/Scripts/Environment/BezierCollider2DEditor.cs"
 "Assets/Scripts/Environment/CloudManagerScript.cs"
 "Assets/Scripts/Environment/CloudScript.cs"
 "Assets/Scripts/Environment/ParallaxBackground.cs"
@@ -410,6 +412,7 @@
 "Assets/Scripts/Environment/ParallaxLayer.cs"
 "Assets/Scripts/Environment/ResizeToScreen.cs"
 "Assets/Scripts/HUD/DetectSafeArea.cs"
+"Assets/Scripts/Player/PlayerMovement.cs"
 -langversion:9.0
 
 /deterministic

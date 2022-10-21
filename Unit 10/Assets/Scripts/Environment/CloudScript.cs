@@ -24,10 +24,10 @@ public class CloudScript : MonoBehaviour {
     void Start() {
         //Set camWidth. Will be used later to check whether or not cloud is off screen.
         camWidth = Camera.main.orthographicSize * Camera.main.aspect;
-        
+        camPos = Camera.main.transform.position.x;
         //Set Cloud Movement Speed, and Position to random values within range defined above
         speed = Random.Range(minSpeed, maxSpeed);
-        transform.position = new Vector3(-camWidth - buffer, Random.Range(minY, maxY), transform.position.z);
+        transform.position = new Vector3(-camWidth - buffer + camPos, Random.Range(minY, maxY), transform.position.z);
     }
  
     // Update is called once per frame
@@ -36,8 +36,8 @@ public class CloudScript : MonoBehaviour {
         //Translates the cloud to the right at the speed that is selected
         transform.Translate(speed * Time.deltaTime, 0, 0);
         //If cloud is off Screen, Destroy it.
-        if(transform.position.x - (buffer + camPos) > camWidth) {
+        if(transform.position.x - (buffer + camPos) > camWidth)
             Destroy(gameObject);
-        }
+        
     }
 }
