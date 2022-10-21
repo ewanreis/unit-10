@@ -100,5 +100,5 @@ MonoBehaviour:
   minSpeed: 0.2
   maxSpeed: 0.7
   minY: 6
-  maxY: 17
+  maxY: 55
   buffer: 2
