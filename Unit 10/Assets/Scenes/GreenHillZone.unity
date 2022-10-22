@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 10338523}
   m_Layer: 0
   m_Name: Line (5)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -173,6 +173,149 @@ EdgeCollider2D:
   m_Points:
   - {x: 43.610096, y: 0.037411094}
   - {x: 48.53982, y: 0.11445731}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0
+--- !u!1 &61013548
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 61013549}
+  - component: {fileID: 61013550}
+  - component: {fileID: 61013551}
+  m_Layer: 0
+  m_Name: Spline
+  m_TagString: Ground
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &61013549
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 61013548}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1622864544}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &61013550
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 61013548}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b154883273c2845f39445c8015d81639, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  points:
+  - {x: -19.116503, y: -3.3521872, z: 0}
+  - {x: -17.311707, y: -3.690225, z: 0}
+  - {x: -16.25974, y: -3.7856603, z: 0}
+  - {x: -14.893482, y: -3.7589405, z: 0}
+  - {x: -13.527224, y: -3.7322206, z: 0}
+  - {x: -11.165656, y: -3.4133775, z: 0}
+  - {x: -10.01026, y: -3.347262, z: 0}
+  - {x: -8.483594, y: -3.259901, z: 0}
+  - {x: -2.8969533, y: -3.2837484, z: 0}
+  - {x: -1.9151934, y: -3.4738646, z: 0}
+  - {x: -1.159191, y: -3.620263, z: 0}
+  - {x: -0.38240278, y: -3.9573555, z: 0}
+  - {x: 0.6089957, y: -3.948086, z: 0}
+  - {x: 1.6077836, y: -3.9387474, z: 0}
+  - {x: 2.8764853, y: -3.4774437, z: 0}
+  - {x: 3.6089957, y: -3.3885577, z: 0}
+  - {x: 4.7975483, y: -3.2443335, z: 0}
+  - {x: 14.806626, y: -3.2981474, z: 0}
+  - {x: 15.802534, y: -3.3885577, z: 0}
+  - {x: 16.795324, y: -3.478685, z: 0}
+  - {x: 19.32637, y: -4.098363, z: 0}
+  - {x: 20.326035, y: -4.124041, z: 0}
+  - {x: 21.47805, y: -4.1536326, z: 0}
+  - {x: 25.435009, y: -3.7821517, z: 0}
+  - {x: 26.395155, y: -3.6825182, z: 0}
+  - {x: 27.389814, y: -3.5793033, z: 0}
+  - {x: 28.243052, y: -3.5234294, z: 0}
+  - {x: 29.19982, y: -3.5937912, z: 0}
+  - {x: 30.105646, y: -3.6604068, z: 0}
+  - {x: 31.244507, y: -3.9134765, z: 0}
+  - {x: 32.187237, y: -3.8545911, z: 0}
+  - {x: 33.184692, y: -3.7922876, z: 0}
+  - {x: 42.001385, y: 0.14060852, z: 0}
+  - {x: 42.92494, y: 0.37091073, z: 0}
+  - {x: 43.89523, y: 0.61286795, z: 0}
+  - {x: 47.79502, y: 0.75450295, z: 0}
+  - {x: 48.264973, y: 0.34106416, z: 0}
+  modes: 00000000020000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+  loop: 0
+  edgeCollider: {fileID: 61013551}
+--- !u!68 &61013551
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 61013548}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0.09
+  m_Points:
+  - {x: -19.116503, y: -3.3521872}
+  - {x: -17.311707, y: -3.690225}
+  - {x: -16.25974, y: -3.7856603}
+  - {x: -14.893482, y: -3.7589405}
+  - {x: -13.527224, y: -3.7322206}
+  - {x: -11.165656, y: -3.4133775}
+  - {x: -10.01026, y: -3.347262}
+  - {x: -8.483594, y: -3.259901}
+  - {x: -2.8969533, y: -3.2837484}
+  - {x: -1.9151934, y: -3.4738646}
+  - {x: -1.159191, y: -3.620263}
+  - {x: -0.38240278, y: -3.9573555}
+  - {x: 0.6089957, y: -3.948086}
+  - {x: 1.6077836, y: -3.9387474}
+  - {x: 2.8764853, y: -3.4774437}
+  - {x: 3.6089957, y: -3.3885577}
+  - {x: 4.7975483, y: -3.2443335}
+  - {x: 14.806626, y: -3.2981474}
+  - {x: 15.802534, y: -3.3885577}
+  - {x: 16.795324, y: -3.478685}
+  - {x: 19.32637, y: -4.098363}
+  - {x: 20.326035, y: -4.124041}
+  - {x: 21.47805, y: -4.1536326}
+  - {x: 25.435009, y: -3.7821517}
+  - {x: 26.395155, y: -3.6825182}
+  - {x: 27.389814, y: -3.5793033}
+  - {x: 28.243052, y: -3.5234294}
+  - {x: 29.19982, y: -3.5937912}
+  - {x: 30.105646, y: -3.6604068}
+  - {x: 31.244507, y: -3.9134765}
+  - {x: 32.187237, y: -3.8545911}
+  - {x: 33.184692, y: -3.7922876}
+  - {x: 42.001385, y: 0.14060852}
+  - {x: 42.92494, y: 0.37091073}
+  - {x: 43.89523, y: 0.61286795}
+  - {x: 47.79502, y: 0.75450295}
+  - {x: 48.264973, y: 0.34106416}
   m_AdjacentStartPoint: {x: 0, y: 0}
   m_AdjacentEndPoint: {x: 0, y: 0}
   m_UseAdjacentStartPoint: 0
@@ -255,7 +398,7 @@ GameObject:
   - component: {fileID: 176792559}
   m_Layer: 0
   m_Name: Line (12)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -558,7 +701,7 @@ GameObject:
   - component: {fileID: 339417652}
   m_Layer: 0
   m_Name: Line (4)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -800,7 +943,7 @@ GameObject:
   - component: {fileID: 385472335}
   m_Layer: 0
   m_Name: Curve (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -832,7 +975,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5422a474182aab94a974b243b4bfebb3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  firstPoint: {x: -12.878098, y: -3.268459}
+  firstPoint: {x: -12.75, y: -3.270631}
   secondPoint: {x: 0.45989466, y: -3.742157}
   handlerFirstPoint: {x: -11.100817, y: -3.4621933}
   handlerSecondPoint: {x: -0.8815057, y: -2.6312535}
@@ -853,16 +996,16 @@ EdgeCollider2D:
   m_Offset: {x: 0, y: 0}
   m_EdgeRadius: 0
   m_Points:
-  - {x: -12.878098, y: -3.268459}
-  - {x: -12.108972, y: -3.2988052}
-  - {x: -10.937245, y: -3.2854712}
-  - {x: -9.466835, y: -3.2462537}
-  - {x: -7.8016624, y: -3.198954}
-  - {x: -6.045646, y: -3.1613696}
-  - {x: -4.3027062, y: -3.1513004}
-  - {x: -2.6767633, y: -3.1865454}
-  - {x: -1.2717352, y: -3.284904}
-  - {x: -0.19154307, y: -3.4641745}
+  - {x: -12.75, y: -3.270631}
+  - {x: -12.015589, y: -3.3003888}
+  - {x: -10.871659, y: -3.2865832}
+  - {x: -9.422898, y: -3.2469985}
+  - {x: -7.7739935, y: -3.199423}
+  - {x: -6.029634, y: -3.1616411}
+  - {x: -4.294508, y: -3.1514394}
+  - {x: -2.6733046, y: -3.186604}
+  - {x: -1.2707105, y: -3.2849214}
+  - {x: -0.19141498, y: -3.4641767}
   - {x: 0.45989466, y: -3.742157}
   m_AdjacentStartPoint: {x: 0, y: 0}
   m_AdjacentEndPoint: {x: 0, y: 0}
@@ -979,7 +1122,7 @@ GameObject:
   - component: {fileID: 403632568}
   m_Layer: 0
   m_Name: Curve (12)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1065,7 +1208,7 @@ GameObject:
   - component: {fileID: 405771048}
   m_Layer: 0
   m_Name: Curve (22)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1281,6 +1424,10 @@ MonoBehaviour:
   isGyroEnabled: 0
   jumpPress: 0
   grounded: 0
+  spline: {fileID: 61013550}
+  duration: 10
+  lookForward: 0
+  mode: 0
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -1639,7 +1786,7 @@ GameObject:
   - component: {fileID: 637123089}
   m_Layer: 0
   m_Name: Line (8)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1693,7 +1840,7 @@ GameObject:
   - component: {fileID: 680357101}
   m_Layer: 0
   m_Name: Line (7)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1750,7 +1897,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &709198227
 Transform:
   m_ObjectHideFlags: 0
@@ -1758,7 +1905,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 709198226}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1776,7 +1923,7 @@ Transform:
   - {fileID: 1611447378}
   - {fileID: 1287397723}
   - {fileID: 176792558}
-  m_Father: {fileID: 1510446780}
+  m_Father: {fileID: 2085123282}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &738958649
@@ -42709,7 +42856,7 @@ GameObject:
   - component: {fileID: 887298270}
   m_Layer: 0
   m_Name: Line (6)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -42764,7 +42911,7 @@ GameObject:
   - component: {fileID: 897255826}
   m_Layer: 0
   m_Name: Curve (6)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -42860,7 +43007,7 @@ GameObject:
   - component: {fileID: 918517602}
   m_Layer: 0
   m_Name: Curve (4)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -42951,7 +43098,7 @@ GameObject:
   - component: {fileID: 933172228}
   m_Layer: 0
   m_Name: Curve (9)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -43037,7 +43184,7 @@ GameObject:
   - component: {fileID: 945201985}
   m_Layer: 0
   m_Name: Curve (13)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -43123,7 +43270,7 @@ GameObject:
   - component: {fileID: 947583656}
   m_Layer: 0
   m_Name: Curve (23)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -43261,8 +43408,8 @@ RectTransform:
   m_Father: {fileID: 1753888415}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 257.19, y: 63.025497}
   m_Pivot: {x: 0, y: 1}
@@ -43425,7 +43572,7 @@ GameObject:
   - component: {fileID: 1026603111}
   m_Layer: 0
   m_Name: Curve (16)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -43532,9 +43679,9 @@ RectTransform:
   m_Father: {fileID: 1753888415}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 0, y: -89.1855}
   m_SizeDelta: {x: 257.19, y: 63.025497}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1043362244
@@ -43590,7 +43737,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1046146731
 Transform:
   m_ObjectHideFlags: 0
@@ -43598,7 +43745,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1046146730}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -43627,7 +43774,7 @@ Transform:
   - {fileID: 1101773622}
   - {fileID: 405771047}
   - {fileID: 947583655}
-  m_Father: {fileID: 1510446780}
+  m_Father: {fileID: 2085123282}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1085357611
@@ -43721,7 +43868,7 @@ GameObject:
   - component: {fileID: 1087151937}
   m_Layer: 0
   m_Name: Curve (19)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -43807,7 +43954,7 @@ GameObject:
   - component: {fileID: 1101773623}
   m_Layer: 0
   m_Name: Curve (21)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -43991,7 +44138,7 @@ GameObject:
   - component: {fileID: 1136105438}
   m_Layer: 0
   m_Name: Curve (7)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -44077,7 +44224,7 @@ GameObject:
   - component: {fileID: 1153460583}
   m_Layer: 0
   m_Name: Curve (20)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -44163,7 +44310,7 @@ GameObject:
   - component: {fileID: 1165594694}
   m_Layer: 0
   m_Name: Curve (8)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -44333,7 +44480,7 @@ GameObject:
   - component: {fileID: 1191755925}
   m_Layer: 0
   m_Name: Curve
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -44366,7 +44513,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   firstPoint: {x: -19.151272, y: -3.4552002}
-  secondPoint: {x: -12.881102, y: -3.2440543}
+  secondPoint: {x: -12.75, y: -3.270631}
   handlerFirstPoint: {x: -15.370408, y: -2.9828086}
   handlerSecondPoint: {x: -17.140137, y: -4.302569}
   pointsQuantity: 10
@@ -44387,16 +44534,16 @@ EdgeCollider2D:
   m_EdgeRadius: 0
   m_Points:
   - {x: -19.151272, y: -3.4552002}
-  - {x: -18.171947, y: -3.3630767}
-  - {x: -17.45619, y: -3.35346}
-  - {x: -16.934513, y: -3.4013274}
-  - {x: -16.537441, y: -3.4816558}
-  - {x: -16.195501, y: -3.5694234}
-  - {x: -15.839215, y: -3.6396072}
-  - {x: -15.39911, y: -3.6671848}
-  - {x: -14.805706, y: -3.6271336}
-  - {x: -13.989529, y: -3.494431}
-  - {x: -12.881102, y: -3.2440543}
+  - {x: -18.171818, y: -3.3631032}
+  - {x: -17.455141, y: -3.3536727}
+  - {x: -16.930973, y: -3.402045}
+  - {x: -16.52905, y: -3.4833567}
+  - {x: -16.179113, y: -3.5727456}
+  - {x: -15.810898, y: -3.6453478}
+  - {x: -15.354142, y: -3.6763005}
+  - {x: -14.738583, y: -3.6407409}
+  - {x: -13.893955, y: -3.5138054}
+  - {x: -12.75, y: -3.270631}
   m_AdjacentStartPoint: {x: 0, y: 0}
   m_AdjacentEndPoint: {x: 0, y: 0}
   m_UseAdjacentStartPoint: 0
@@ -44414,7 +44561,7 @@ GameObject:
   - component: {fileID: 1214996447}
   m_Layer: 0
   m_Name: Curve (3)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -44530,7 +44677,7 @@ GameObject:
   - component: {fileID: 1245300262}
   m_Layer: 0
   m_Name: Line (9)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -44584,7 +44731,7 @@ GameObject:
   - component: {fileID: 1254475122}
   m_Layer: 0
   m_Name: Line (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -44638,7 +44785,7 @@ GameObject:
   - component: {fileID: 1287397724}
   m_Layer: 0
   m_Name: Line (11)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -44693,7 +44840,7 @@ GameObject:
   - component: {fileID: 1392232533}
   m_Layer: 0
   m_Name: Curve (14)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -44951,7 +45098,7 @@ GameObject:
   - component: {fileID: 1463720011}
   m_Layer: 0
   m_Name: Curve (17)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -45210,7 +45357,7 @@ GameObject:
   - component: {fileID: 1492373512}
   m_Layer: 0
   m_Name: Line (3)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -45286,9 +45433,9 @@ RectTransform:
   m_Father: {fileID: 1753888415}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 0, y: -178.371}
   m_SizeDelta: {x: 257.19, y: 63.025497}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1503557389
@@ -45357,10 +45504,10 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 1622864544}
   - {fileID: 785293762}
-  - {fileID: 1046146731}
-  - {fileID: 709198227}
   - {fileID: 551748326}
+  - {fileID: 2085123282}
   m_Father: {fileID: 950546216}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -45428,7 +45575,7 @@ GameObject:
   - component: {fileID: 1572749306}
   m_Layer: 0
   m_Name: Curve (15)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -45513,7 +45660,7 @@ GameObject:
   - component: {fileID: 1611447379}
   m_Layer: 0
   m_Name: Line (10)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -45555,6 +45702,38 @@ EdgeCollider2D:
   m_AdjacentEndPoint: {x: 0, y: 0}
   m_UseAdjacentStartPoint: 0
   m_UseAdjacentEndPoint: 0
+--- !u!1 &1622864543
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1622864544}
+  m_Layer: 0
+  m_Name: Splines
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1622864544
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1622864543}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 61013549}
+  m_Father: {fileID: 1510446780}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1630192877
 GameObject:
   m_ObjectHideFlags: 0
@@ -45573,7 +45752,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1630192878
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45784,7 +45963,7 @@ GameObject:
   - component: {fileID: 1737917437}
   m_Layer: 0
   m_Name: Line
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -45905,7 +46084,7 @@ GameObject:
   - component: {fileID: 1878431673}
   m_Layer: 0
   m_Name: Curve (5)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -46101,7 +46280,7 @@ GameObject:
   - component: {fileID: 1940898918}
   m_Layer: 0
   m_Name: Curve (18)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -46262,7 +46441,7 @@ GameObject:
   - component: {fileID: 1974368833}
   m_Layer: 0
   m_Name: Line (2)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -46445,7 +46624,7 @@ GameObject:
   - component: {fileID: 1987801448}
   m_Layer: 0
   m_Name: Curve (11)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -46607,7 +46786,7 @@ GameObject:
   - component: {fileID: 2075749327}
   m_Layer: 0
   m_Name: Curve (10)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -46680,6 +46859,39 @@ EdgeCollider2D:
   m_AdjacentEndPoint: {x: 0, y: 0}
   m_UseAdjacentStartPoint: 0
   m_UseAdjacentEndPoint: 0
+--- !u!1 &2085123281
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2085123282}
+  m_Layer: 0
+  m_Name: Unused
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &2085123282
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2085123281}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1046146731}
+  - {fileID: 709198227}
+  m_Father: {fileID: 1510446780}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2104014802
 GameObject:
   m_ObjectHideFlags: 0
@@ -46693,7 +46905,7 @@ GameObject:
   - component: {fileID: 2104014804}
   m_Layer: 0
   m_Name: Curve (2)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -46725,7 +46937,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5422a474182aab94a974b243b4bfebb3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  firstPoint: {x: 0.058310844, y: -3.585983}
+  firstPoint: {x: 0.4598947, y: -3.742157}
   secondPoint: {x: 18.209747, y: -3.5905423}
   handlerFirstPoint: {x: 2.71823, y: -3.3889854}
   handlerSecondPoint: {x: 16.008282, y: -2.63486}
@@ -46746,16 +46958,16 @@ EdgeCollider2D:
   m_Offset: {x: 0, y: 0}
   m_EdgeRadius: 0
   m_Points:
-  - {x: 0.058310844, y: -3.585983}
-  - {x: 1.1534717, y: -3.5124364}
-  - {x: 2.7561288, y: -3.419065}
-  - {x: 4.7359686, y: -3.3194678}
-  - {x: 6.96268, y: -3.2272484}
-  - {x: 9.305949, y: -3.1560078}
-  - {x: 11.635466, y: -3.1193473}
-  - {x: 13.820915, y: -3.130869}
-  - {x: 15.731987, y: -3.2041745}
-  - {x: 17.238369, y: -3.3528647}
+  - {x: 0.4598947, y: -3.742157}
+  - {x: 1.4462264, y: -3.6262875}
+  - {x: 2.9617395, y: -3.499026}
+  - {x: 4.8737116, y: -3.3730357}
+  - {x: 7.049422, y: -3.2609823}
+  - {x: 9.356148, y: -3.1755295}
+  - {x: 11.661167, y: -3.1293426}
+  - {x: 13.831758, y: -3.1350856}
+  - {x: 15.735201, y: -3.2054238}
+  - {x: 17.23877, y: -3.3530211}
   - {x: 18.209747, y: -3.5905423}
   m_AdjacentStartPoint: {x: 0, y: 0}
   m_AdjacentEndPoint: {x: 0, y: 0}

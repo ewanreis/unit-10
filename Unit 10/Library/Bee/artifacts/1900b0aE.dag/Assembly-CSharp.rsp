@@ -407,12 +407,20 @@
 "Assets/Scripts/Environment/BezierCollider2DEditor.cs"
 "Assets/Scripts/Environment/CloudManagerScript.cs"
 "Assets/Scripts/Environment/CloudScript.cs"
+"Assets/Scripts/Environment/ColliderEditors/Bezier.cs"
+"Assets/Scripts/Environment/ColliderEditors/BezierControlPointMode.cs"
+"Assets/Scripts/Environment/ColliderEditors/BezierCurve.cs"
+"Assets/Scripts/Environment/ColliderEditors/BezierSpline.cs"
+"Assets/Scripts/Environment/ColliderEditors/Line.cs"
+"Assets/Scripts/Environment/ColliderEditors/SplineDecorator.cs"
+"Assets/Scripts/Environment/ColliderEditors/SplineWalkerMode.cs"
 "Assets/Scripts/Environment/ParallaxBackground.cs"
 "Assets/Scripts/Environment/ParallaxCamera.cs"
 "Assets/Scripts/Environment/ParallaxLayer.cs"
 "Assets/Scripts/Environment/ResizeToScreen.cs"
 "Assets/Scripts/HUD/DetectSafeArea.cs"
 "Assets/Scripts/Player/PlayerMovement.cs"
+"Assets/Scripts/Player/SplineWalker.cs"
 -langversion:9.0
 
 /deterministic

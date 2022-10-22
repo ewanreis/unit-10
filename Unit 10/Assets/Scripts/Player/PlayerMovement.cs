@@ -21,6 +21,18 @@ public class PlayerMovement : MonoBehaviour
     private Quaternion rotCur;
 
 
+    public BezierSpline spline;
+
+	public float duration;
+
+	public bool lookForward;
+
+	public SplineWalkerMode mode;
+
+	private float progress = 1f;
+	private bool goingForward = true;
+
+
     private void Update()
     {
         TakeInput();
@@ -29,6 +41,8 @@ public class PlayerMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
+        //if(!jumpPress && grounded)
+        //    WalkOnSpline();
         
         MovePlayer();
     }
@@ -42,45 +56,36 @@ public class PlayerMovement : MonoBehaviour
 
     void OnCollisionStay2D(Collision2D collision)
     {
+        if(collision.gameObject.tag == "Ground")
+            SnapToGroundNormal(collision);
+    }
+
+    private void OnCollisionExit2D(Collision2D collision)
+    {
+        if(collision.gameObject.tag == "Ground")
+            grounded = false;
+    }
+
+    private void SnapToGroundNormal(Collision2D collision)
+    {
         grounded = true;
         foreach (ContactPoint2D contact in collision.contacts)
         {
             Debug.DrawRay(contact.point, contact.normal, Color.blue, 2f, false);
             rotCur = Quaternion.FromToRotation(transform.up, contact.normal) * transform.rotation;
-            posCur = new Vector3(transform.position.x, contact.point.y + .3f, transform.position.z);
-            transform.position = Vector3.Lerp(transform.position, posCur, Time.deltaTime * 5);
-            transform.rotation = Quaternion.Lerp(transform.rotation, rotCur, Time.deltaTime * 5);
+            posCur = new Vector3(transform.position.x, contact.point.y + 0.9f, transform.position.z);
+            transform.position = Vector3.Lerp(transform.position, posCur, Time.deltaTime * 10);
+            transform.rotation = rotCur;
+            //transform.rotation = Quaternion.Lerp(transform.rotation, rotCur, Time.deltaTime * 5);
         }
-        //if (collision.relativeVelocity.magnitude > 2)
-        //    audioSource.Play();
     }
 
-    private void OnCollisionExit2D(Collision2D other)
-    {
-        grounded = false;
-    }
+
 
     private void ProcessAirtimeNormals()
     {
-        //RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down, 1f);
-        //Debug.DrawRay(hit.point, contact.normal, Color.blue, 2f, false);
-
         if(!grounded)
         {
-            /*// * if we are not grounded, make the object go straight down in world space (simulating gravity). the "1f" multiplier controls how fast we descend.
-            transform.position = Vector3.Lerp(transform.position, transform.position - Vector3.up * 1f, Time.deltaTime * 5);
-            // ! from memory, not sure why I added this... Looks like a fail safe to me. When the object is turned too much towards teh front or back, almost instantly (*1000) make it rotate to a better orientation for aligning.
-            if(transform.eulerAngles.x > 15)
-            {
-                turnVector.x -= Time.deltaTime * 1000;
-            }
-            else if(transform.eulerAngles.x < 15)
-            {
-                turnVector.x += Time.deltaTime * 1000;
-            }
-            //if we are not grounded, make the vehicle's rotation "even out". Not completey reaslistic, but easy to work with.
-            rotCur.eulerAngles = Vector3.zero;
-            transform.rotation = Quaternion.Lerp(transform.rotation, rotCur, Time.deltaTime);*/
             transform.rotation = Quaternion.Euler(Vector3.up);
         }
     }
