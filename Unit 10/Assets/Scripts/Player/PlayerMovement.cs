@@ -41,9 +41,6 @@ public class PlayerMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
-        //if(!jumpPress && grounded)
-        //    WalkOnSpline();
-        
         MovePlayer();
     }
 
@@ -75,8 +72,8 @@ public class PlayerMovement : MonoBehaviour
             rotCur = Quaternion.FromToRotation(transform.up, contact.normal) * transform.rotation;
             posCur = new Vector3(transform.position.x, contact.point.y + 0.9f, transform.position.z);
             transform.position = Vector3.Lerp(transform.position, posCur, Time.deltaTime * 10);
-            transform.rotation = rotCur;
-            //transform.rotation = Quaternion.Lerp(transform.rotation, rotCur, Time.deltaTime * 5);
+            //transform.rotation = rotCur;
+            transform.rotation = Quaternion.Lerp(transform.rotation, rotCur, Time.deltaTime * 3);
         }
     }
 
@@ -100,7 +97,7 @@ public class PlayerMovement : MonoBehaviour
     {
         if(!isGyroEnabled)
         {
-            testAngle = Input.GetAxis("Horizontal");
+            //testAngle = Input.GetAxis("Horizontal");
             
             inputVelocity.x = testAngle;
             jumpPress = (Input.GetMouseButtonDown(0)) ? true : false;
@@ -120,7 +117,10 @@ public class PlayerMovement : MonoBehaviour
 
     private void Jump()
     {
-        float jumpBonus = (inputVelocity.x * inputVelocity.x) / 10 + 1;
-        rb.AddForce(Vector2.up * jumpForce * jumpBonus, ForceMode2D.Impulse);
+        if(grounded)
+        {
+            float jumpBonus = (inputVelocity.x * inputVelocity.x) / 10 + 1;
+            rb.AddForce(Vector2.up * jumpForce * jumpBonus, ForceMode2D.Impulse);
+        }
     }
 }
