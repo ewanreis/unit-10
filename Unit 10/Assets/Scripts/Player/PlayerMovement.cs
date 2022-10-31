@@ -97,7 +97,7 @@ public class PlayerMovement : MonoBehaviour
     {
         if(!isGyroEnabled)
         {
-            //testAngle = Input.GetAxis("Horizontal");
+            testAngle = Input.GetAxis("Horizontal");
             
             inputVelocity.x = testAngle;
             jumpPress = (Input.GetMouseButtonDown(0)) ? true : false;
