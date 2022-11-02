@@ -11,6 +11,8 @@ public class PlayerMovement : MonoBehaviour
     public float maxVelocity;
     public float runSpeed;
 
+    public SpriteRenderer sr;
+
     private Rigidbody2D rb;
     private Vector2 inputVelocity, desiredVelocity;
     private float tiltAngle;
@@ -20,17 +22,13 @@ public class PlayerMovement : MonoBehaviour
     private Vector3 posCur, turnVector;
     private Quaternion rotCur;
 
+    public bool isJumping, isRunning;
 
-    public BezierSpline spline;
+    public Animator anim;
 
-	public float duration;
 
-	public bool lookForward;
+	public bool lookForward = true;
 
-	public SplineWalkerMode mode;
-
-	private float progress = 1f;
-	private bool goingForward = true;
 
 
     private void Update()
@@ -41,7 +39,10 @@ public class PlayerMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
-        MovePlayer();
+        if(grounded)
+            MovePlayer();
+        ProcessAnimations();
+        
     }
 
     private void Start()
@@ -49,6 +50,20 @@ public class PlayerMovement : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         if(isGyroEnabled)
             Input.gyro.enabled = true;
+    }
+
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        if(collision.gameObject.tag == "Ground")
+            StartCoroutine(LandPlayer());
+    }
+
+    private IEnumerator LandPlayer()
+    {
+        yield return new WaitForSeconds(0.1f);
+
+        isJumping = false;
+        yield return null;
     }
 
     void OnCollisionStay2D(Collision2D collision)
@@ -59,8 +74,24 @@ public class PlayerMovement : MonoBehaviour
 
     private void OnCollisionExit2D(Collision2D collision)
     {
-        if(collision.gameObject.tag == "Ground")
-            grounded = false;
+        grounded = false;
+    }
+
+    private void ProcessAnimations()
+    {
+        sr.flipX = !lookForward;
+
+        if(isJumping || !grounded)
+            anim.Play("SonicJump");
+
+        else if(isRunning && rb.velocity.magnitude <= 5)
+            anim.Play("SonicRun");
+
+        else if(isRunning && rb.velocity.magnitude > 5)
+            anim.Play("SonicRunFast");
+
+        else if(!isRunning && !isJumping)
+            anim.Play("SonicIdle");
     }
 
     private void SnapToGroundNormal(Collision2D collision)
@@ -73,7 +104,7 @@ public class PlayerMovement : MonoBehaviour
             posCur = new Vector3(transform.position.x, contact.point.y + 0.9f, transform.position.z);
             transform.position = Vector3.Lerp(transform.position, posCur, Time.deltaTime * 10);
             //transform.rotation = rotCur;
-            transform.rotation = Quaternion.Lerp(transform.rotation, rotCur, Time.deltaTime * 3);
+            transform.rotation = Quaternion.Lerp(transform.rotation, rotCur, Time.deltaTime * 5);
         }
     }
 
@@ -90,7 +121,19 @@ public class PlayerMovement : MonoBehaviour
     private void MovePlayer()
     {
         if(rb.velocity.magnitude < maxVelocity)
+        {
             rb.AddForce(inputVelocity * runSpeed);
+            isRunning = true;
+        }
+        if (inputVelocity.x == 0)
+            isRunning = false;
+        if(grounded && inputVelocity.x == 0)
+            rb.velocity = new Vector2(0, rb.velocity.y);
+        
+        if(inputVelocity.x > 0)
+            lookForward = true;
+        else if(inputVelocity.x < 0)
+            lookForward = false;
     }
 
     private void TakeInput()
@@ -105,7 +148,8 @@ public class PlayerMovement : MonoBehaviour
 
         if(isGyroEnabled)
         {
-            tiltAngle = -Input.gyro.attitude.z;
+            //inputVelocity.x = -Input.gyro.attitude.z;
+            inputVelocity.x = testAngle;
             jumpPress = (Input.touchCount > 0) ? true : false;
 
         }
@@ -117,9 +161,11 @@ public class PlayerMovement : MonoBehaviour
 
     private void Jump()
     {
-        if(grounded)
+        if(grounded && !isJumping)
         {
-            float jumpBonus = (inputVelocity.x * inputVelocity.x) / 10 + 1;
+            isJumping = true;
+            float jumpBonus = Mathf.Clamp((rb.velocity.magnitude / 20), 0.7f, 0.8f);
+            print(jumpBonus);
             rb.AddForce(Vector2.up * jumpForce * jumpBonus, ForceMode2D.Impulse);
         }
     }

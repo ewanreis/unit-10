@@ -1574,34 +1574,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sonic-sheet_67
+      name: sonic-sheet_68
       rect:
         serializedVersion: 2
         x: 1
         y: 139
-        width: 23
-        height: 22
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 05cdb856e32e59941b9114e6a89b35e9
-      internalID: 746885041
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sonic-sheet_68
-      rect:
-        serializedVersion: 2
-        x: 12
-        y: 141
-        width: 27
-        height: 39
+        width: 49
+        height: 41
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1621,7 +1600,7 @@ TextureImporter:
         serializedVersion: 2
         x: 51
         y: 139
-        width: 38
+        width: 49
         height: 41
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -1642,7 +1621,7 @@ TextureImporter:
         serializedVersion: 2
         x: 102
         y: 139
-        width: 36
+        width: 44
         height: 41
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -1663,7 +1642,7 @@ TextureImporter:
         serializedVersion: 2
         x: 146
         y: 139
-        width: 40
+        width: 53
         height: 41
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -2689,10 +2668,10 @@ TextureImporter:
       sonic-sheet_38: -1210318321
       sonic-sheet_56: 85940758
       sonic-sheet_73: 898105951
-      sonic-sheet_83: -1543329492
       sonic-sheet_62: 1628308325
       sonic-sheet_12: -1631922653
       sonic-sheet_34: 978852662
+      sonic-sheet_83: -1543329492
       sonic-sheet_47: -1443848127
       sonic-sheet_43: -604216032
       sonic-sheet_92: -2132554785
