@@ -52,10 +52,10 @@ MonoBehaviour:
     displayName: Main Display
     displayId: 1
     enabled: 1
-    mode: 1
-    viewWindowTitle: Game
+    mode: 0
+    viewWindowTitle: Simulator
     playModeViewSettings:
-      rid: 4714145162836312287
+      rid: -2
   references:
     version: 2
     RefIds:
@@ -74,15 +74,6 @@ MonoBehaviour:
       type: {class: GameViewFullscreenSettings, ns: UnityEditor, asm: UnityEditor.CoreModule}
       data:
         m_displayNumber: 1
-        m_showToolbar: 0
-        m_vsyncEnabled: 0
-        m_showStats: 0
-        m_showGizmos: 0
-        m_selectedSizeIndex: 0
-    - rid: 4714145162836312287
-      type: {class: GameViewFullscreenSettings, ns: UnityEditor, asm: UnityEditor.CoreModule}
-      data:
-        m_displayNumber: 0
         m_showToolbar: 0
         m_vsyncEnabled: 0
         m_showStats: 0

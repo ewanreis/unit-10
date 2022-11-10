@@ -4,32 +4,29 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    
+    #region Public Variables
     public float jumpForce;
     [Range(-1,1)]
     public float testAngle;
     public float maxVelocity;
     public float runSpeed;
-
+    public bool isGyroEnabled = false;
+    public Animator anim;
     public SpriteRenderer sr;
+    #endregion
 
+    #region Private Variables
     private Rigidbody2D rb;
     private Vector2 inputVelocity, desiredVelocity;
     private float tiltAngle;
-    [SerializeField]
-    private bool isGyroEnabled = false, jumpPress = false;
-    public bool grounded;
+    private bool jumpPress = false;
+	private bool lookForward = true;
+    private bool isJumping;
+    private bool isRunning;
+    private bool grounded;
     private Vector3 posCur, turnVector;
     private Quaternion rotCur;
-
-    public bool isJumping, isRunning;
-
-    public Animator anim;
-
-
-	public bool lookForward = true;
-
-
+    #endregion
 
     private void Update()
     {
@@ -125,13 +122,16 @@ public class PlayerMovement : MonoBehaviour
             rb.AddForce(inputVelocity * runSpeed);
             isRunning = true;
         }
+
         if (inputVelocity.x == 0)
             isRunning = false;
+
         if(grounded && inputVelocity.x == 0)
             rb.velocity = new Vector2(0, rb.velocity.y);
         
         if(inputVelocity.x > 0)
             lookForward = true;
+
         else if(inputVelocity.x < 0)
             lookForward = false;
     }
