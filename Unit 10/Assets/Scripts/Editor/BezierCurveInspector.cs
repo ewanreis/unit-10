@@ -2,7 +2,8 @@ using UnityEditor;
 using UnityEngine;
 
 [CustomEditor(typeof(BezierCurve))]
-public class BezierCurveInspector : Editor {
+public class BezierCurveInspector : Editor 
+{
 
 	private const int lineSteps = 10;
 	private const float directionScale = 0.5f;
@@ -11,7 +12,8 @@ public class BezierCurveInspector : Editor {
 	private Transform handleTransform;
 	private Quaternion handleRotation;
 
-	private void OnSceneGUI () {
+	private void OnSceneGUI () 
+	{
 		curve = target as BezierCurve;
 		handleTransform = curve.transform;
 		handleRotation = Tools.pivotRotation == PivotRotation.Local ?
@@ -30,7 +32,8 @@ public class BezierCurveInspector : Editor {
 		Handles.DrawBezier(p0, p3, p1, p2, Color.white, null, 2f);
 	}
 
-	private void ShowDirections () {
+	private void ShowDirections () 
+	{
 		Handles.color = Color.green;
 		Vector3 point = curve.GetPoint(0f);
 		Handles.DrawLine(point, point + curve.GetDirection(0f) * directionScale);
@@ -40,11 +43,13 @@ public class BezierCurveInspector : Editor {
 		}
 	}
 
-	private Vector3 ShowPoint (int index) {
+	private Vector3 ShowPoint (int index) 
+	{
 		Vector3 point = handleTransform.TransformPoint(curve.points[index]);
 		EditorGUI.BeginChangeCheck();
 		point = Handles.DoPositionHandle(point, handleRotation);
-		if (EditorGUI.EndChangeCheck()) {
+		if (EditorGUI.EndChangeCheck()) 
+		{
 			Undo.RecordObject(curve, "Move Point");
 			EditorUtility.SetDirty(curve);
 			curve.points[index] = handleTransform.InverseTransformPoint(point);

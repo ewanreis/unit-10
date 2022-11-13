@@ -416,7 +416,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 218489088}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 384.10013, y: 3.8, z: 0}
+  m_LocalPosition: {x: 384.10217, y: 3.8, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -947,7 +947,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 394240086}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 395.7328, y: 6.68, z: 0}
+  m_LocalPosition: {x: 395.73508, y: 6.68, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1218,14 +1218,9 @@ MonoBehaviour:
   testAngle: 0
   maxVelocity: 18
   runSpeed: 26
-  sr: {fileID: 422769382}
   isGyroEnabled: 0
-  jumpPress: 0
-  grounded: 0
-  isJumping: 0
-  isRunning: 0
   anim: {fileID: 422769387}
-  lookForward: 0
+  sr: {fileID: 422769382}
 --- !u!95 &422769387
 Animator:
   serializedVersion: 4
@@ -1861,7 +1856,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 738958649}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 120.83983, y: 13.1244, z: 0}
+  m_LocalPosition: {x: 120.84241, y: 13.1244, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -43640,7 +43635,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1102192677}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 402.24832, y: 2.77, z: 0}
+  m_LocalPosition: {x: 402.25012, y: 2.77, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -44329,7 +44324,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1481404528}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 297.36105, y: -10.0035, z: 0}
+  m_LocalPosition: {x: 297.36234, y: -10.0035, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -45337,7 +45332,7 @@ AudioSource:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1981367114}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 42ff5047bb1467346a42697d53aff8c5, type: 3}
