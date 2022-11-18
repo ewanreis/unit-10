@@ -13,6 +13,8 @@ public class PlayerMovement : MonoBehaviour
     public bool isGyroEnabled = false;
     public Animator anim;
     public SpriteRenderer sr;
+    public AudioClip jumpSound;
+    public AudioSource source;
     #endregion
 
     #region Private Variables
@@ -165,7 +167,7 @@ public class PlayerMovement : MonoBehaviour
         {
             isJumping = true;
             float jumpBonus = Mathf.Clamp((rb.velocity.magnitude / 20), 0.7f, 0.8f);
-            print(jumpBonus);
+            source.PlayOneShot(jumpSound);
             rb.AddForce(Vector2.up * jumpForce * jumpBonus, ForceMode2D.Impulse);
         }
     }
