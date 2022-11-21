@@ -98,7 +98,7 @@ public class PlayerMovement : MonoBehaviour
         grounded = true;
         foreach (ContactPoint2D contact in collision.contacts)
         {
-            Debug.DrawRay(contact.point, contact.normal, Color.blue, 2f, false);
+            //Debug.DrawRay(contact.point, contact.normal, Color.blue, 2f, false);
             rotCur = Quaternion.FromToRotation(transform.up, contact.normal) * transform.rotation;
             posCur = new Vector3(transform.position.x, contact.point.y + 0.9f, transform.position.z);
             transform.position = Vector3.Lerp(transform.position, posCur, Time.deltaTime * 10);
@@ -150,8 +150,8 @@ public class PlayerMovement : MonoBehaviour
 
         if(isGyroEnabled)
         {
-            //inputVelocity.x = -Input.gyro.attitude.z;
-            inputVelocity.x = testAngle;
+            inputVelocity.x = -Input.gyro.attitude.z;
+            //inputVelocity.x = testAngle;
             jumpPress = (Input.touchCount > 0) ? true : false;
 
         }
