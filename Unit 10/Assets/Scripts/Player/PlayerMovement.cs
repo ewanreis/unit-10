@@ -150,7 +150,8 @@ public class PlayerMovement : MonoBehaviour
 
         if(isGyroEnabled)
         {
-            inputVelocity.x = -Input.gyro.attitude.z;
+            inputVelocity.x = Mathf.Clamp(((Input.gyro.attitude.z * 3) + 0.5f), -1, 1);
+            print(inputVelocity.x);
             //inputVelocity.x = testAngle;
             jumpPress = (Input.touchCount > 0) ? true : false;
 
